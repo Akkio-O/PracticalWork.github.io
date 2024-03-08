@@ -1,0 +1,71 @@
+<!DOCTYPE HTML />
+<HTML>
+<HEAD>
+<TITLE>Домашний сайт</TITLE>
+</HEAD>
+<style>
+    
+    body {
+        color: #fafafa;
+    }
+    p {
+        border-radius: 10px;
+        background-color: #ab4650;
+        margin-left: 360px;
+        margin-bottom: -5px;
+        padding: 12px;
+        color: white;
+    }
+    img {
+        position: relative;
+    }
+
+    form {
+        margin-top: 15px;
+        display: flex;
+        gap: 100px;
+    }
+</style>
+<body bgcolor="black" leftmargin="50">
+    <h1><font size="7" color="white"><i>Анкета</i></font></h1>
+    <!-- <img align="left" src="Room.jpg" height="80%" border=""> -->
+
+    <form>
+        <div>
+                <div>
+                    <label for="text">Ваше имя</label>
+                    <input type="text" action="" method="post" enctype="multipart/form-data" accept-charset="" accept="mime" name="name" value="">
+                </div>
+                <div>
+                    <label for="radio">Ваш пол
+                    <input type="radio" action="" method="post" enctype="multipart/form-data" accept-charset="" accept="mime">Мужской
+                    <input type="radio" action="" method="post" enctype="multipart/form-data" accept-charset="" accept="mime">Женский
+                    </label>
+                </div><br>
+                <div>
+                    <label for="text"><b>На каком курсе вы учитесь?</b></label><br><br>
+                    <select>
+                        <option>первый</option>
+                        <option>второй</option>
+                        <option>третий</option>
+                        <option>четвертый</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label for="checkbox"><b>Какие языки программирования вы знаете?</b></label><br>
+                    <input type="checkbox" action="" method="post" enctype="multipart/form-data" accept-charset="" accept="mime">Паскаль
+                    <input type="checkbox" action="" method="post" enctype="multipart/form-data" accept-charset="" accept="mime">СИ
+                    <input type="checkbox" action="" method="post" enctype="multipart/form-data" accept-charset="" accept="mime">Ассемблер
+                </div><br>
+                <div>
+                    <label for="areatext">Напишите несколько слов о себе</label><br>
+                    <textarea></textarea>
+                </div><br>
+                <div>
+                    <input type="submit" value="Отрпавить данные">
+                    <input type="reset" value="Сброс значений полей">
+                </div>
+        </div>
+    </form>
+</body>
+</HTML>
